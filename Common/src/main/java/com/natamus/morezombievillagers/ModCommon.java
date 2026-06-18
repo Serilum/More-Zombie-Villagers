@@ -2,7 +2,7 @@ package com.natamus.morezombievillagers;
 
 import com.natamus.collective.objects.SAMObject;
 import com.natamus.morezombievillagers.config.ConfigHandler;
-import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityTypes;
 
 public class ModCommon {
 
@@ -12,6 +12,6 @@ public class ModCommon {
 	}
 
 	private static void load() {
-		new SAMObject(EntityType.ZOMBIE, EntityType.ZOMBIE_VILLAGER, null, ConfigHandler.zombieIsVillagerChance, false, false, false);
+		new SAMObject(EntityTypes.ZOMBIE, EntityTypes.ZOMBIE_VILLAGER, null, ConfigHandler.zombieIsVillagerChance, false, false, false);
 	}
 }
