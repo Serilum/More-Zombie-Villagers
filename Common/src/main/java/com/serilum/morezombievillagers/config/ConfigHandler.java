@@ -1,7 +1,7 @@
-package com.natamus.morezombievillagers.config;
+package com.serilum.morezombievillagers.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.morezombievillagers.util.Reference;
+import com.serilum.morezombievillagers.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

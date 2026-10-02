@@ -1,7 +1,7 @@
-package com.natamus.morezombievillagers.forge.config;
+package com.serilum.morezombievillagers.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.morezombievillagers.util.Reference;
+import com.serilum.morezombievillagers.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 
