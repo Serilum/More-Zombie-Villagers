@@ -1,7 +1,7 @@
-package com.natamus.morezombievillagers;
+package com.serilum.morezombievillagers;
 
 import com.natamus.collective.objects.SAMObject;
-import com.natamus.morezombievillagers.config.ConfigHandler;
+import com.serilum.morezombievillagers.config.ConfigHandler;
 import net.minecraft.world.entity.EntityType;
 
 public class ModCommon {

@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
   "id": "morezombievillagers",
-  "version": "3.6",
+  "version": "3.7",
 
   "name": "More Zombie Villagers",
   "description": "Allows modifying the default chance a zombie spawn is of the villager variant.",
-  "authors": [ "Rick South" ],
+  "authors": [ "Serilum" ],
   "contact": {
     "homepage": "https://serilum.com/mod/more-zombie-villagers",
     "sources": "https://github.com/Serilum/More-Zombie-Villagers",
     "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20More%20Zombie%20Villagers"
   },
 
-  "license": "All Right Reserved",
+  "license": "All Rights Reserved",
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": { "main": [ "com.natamus.morezombievillagers.ModFabric" ], "modmenu": [ "com.natamus.morezombievillagers.fabric.config.IntegrateModMenu" ] },
+  "entrypoints": { "main": [ "com.serilum.morezombievillagers.ModFabric" ], "modmenu": [ "com.serilum.morezombievillagers.fabric.config.IntegrateModMenu" ] },
 
   "depends": {
     "fabricloader": ">=0.15.0",
     "fabric": "*",
     "minecraft": ">=1.21",
     "java": ">=21",
-    "collective": ">=7.80"
+    "collective": ">=8.40"
   },
 
   "custom": {
     "modmenu": {
       "links": {
-        "Donate <3" : "https://ricksouth.com/donate"
+        "Donate <3" : "https://serilum.com/donate"
       }
     }
   },
@@ -38,16 +38,15 @@
 	  " ",
 	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
 	  " ",
-	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  "If you would like to contribute too, check out https://serilum.com/donate",
 	  " ",
 	  "Membership sponsors:",
-	  " Alister",
 	  " Andrean Olgo",
+	  " AnyankaT",
 	  " aternosorg",
 	  " Cherriesaurus",
-	  " Michael W. S.",
-	  " Nahuel Fernandez",
-	  " Shana Gitnick",
+	  " Linda Jansen",
+	  " MWS",
 	  " Tyler Behl"
   ]
 }
