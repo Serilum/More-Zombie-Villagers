@@ -15,7 +15,9 @@ public class ModCommon {
 	}
 
 	private static void load() {
-		samObject = new SAMObject(EntityTypes.ZOMBIE, EntityTypes.ZOMBIE_VILLAGER, null, ConfigHandler.zombieIsVillagerChance, false, false, false, false, false, Integer.MAX_VALUE);
+		samObject = new SAMObject(EntityTypes.ZOMBIE, EntityTypes.ZOMBIE_VILLAGER, null, ConfigHandler.zombieIsVillagerChance, false, false, ConfigHandler.onlySpawnZombieVillagersOnSurface, false, false, Integer.MAX_VALUE);
+		samObject.dimensionIds = ConfigHandler.dimensionsToSpawnIn;
+		samObject.biomeIds = ConfigHandler.biomesToSpawnIn;
 
 		ConfigCallback.CONFIG_CHANGED.register((String modid) -> {
 			if (!modid.equals(Reference.MOD_ID)) {
@@ -23,6 +25,9 @@ public class ModCommon {
 			}
 
 			samObject.changeChance = ConfigHandler.zombieIsVillagerChance;
+			samObject.onlyOnSurface = ConfigHandler.onlySpawnZombieVillagersOnSurface;
+			samObject.dimensionIds = ConfigHandler.dimensionsToSpawnIn;
+			samObject.biomeIds = ConfigHandler.biomesToSpawnIn;
 		});
 	}
 }
