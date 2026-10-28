@@ -1,9 +1,9 @@
-package com.natamus.morezombievillagers;
+package com.serilum.morezombievillagers;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.morezombievillagers.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.morezombievillagers.util.Reference;
+import com.serilum.morezombievillagers.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.morezombievillagers.util.Reference;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;

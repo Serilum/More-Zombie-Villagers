@@ -1,8 +1,8 @@
-package com.natamus.morezombievillagers;
+package com.serilum.morezombievillagers;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.morezombievillagers.util.Reference;
+import com.serilum.morezombievillagers.util.Reference;
 import net.fabricmc.api.ModInitializer;
 
 public class ModFabric implements ModInitializer {
